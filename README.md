@@ -2,7 +2,7 @@
 
 ## Week 0
 
-### Reflectiction
+### Reflection
 
 Quite easy covers most things I know.
 

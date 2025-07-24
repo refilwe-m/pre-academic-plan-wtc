@@ -26,6 +26,8 @@ Nothing new yet but I enjoyed the problem sets.
 
 ## Week 2 Reflections
 
+Better problem sets.
+
 ## Week 3 Reflections
 
 ## Week 4 Reflections

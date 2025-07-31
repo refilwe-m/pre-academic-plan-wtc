@@ -17,6 +17,7 @@ Quite easy covers most things I know.
 - ✅ Variables
 - ✅ Condionals
 - ✅ Problem Solving
+- ✅ Error Handiling
 
 ___
 
@@ -29,5 +30,7 @@ Nothing new yet but I enjoyed the problem sets.
 Better problem sets.
 
 ## Week 3 Reflections
+
+I had a really insightful week, I enjoyed learning a bit more on error handling and debugging something that really helps with code quality.
 
 ## Week 4 Reflections

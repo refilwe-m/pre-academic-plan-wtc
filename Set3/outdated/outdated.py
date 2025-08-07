@@ -8,33 +8,22 @@ def is_valid_input(s):
     
     if re.match(month_pattern, s):
         try:
-            print(date.strptime(s, "%B %d, %Y"))
+            print(datetime.strptime(s, "%B %d, %Y").strftime("%Y-%m-%d"))
             return True
         except ValueError:
                 return False
     elif re.match(numeric_pattern, s):
         try:
-            datetime.strptime(s, "%m/%d/%Y")
+            ts = datetime.strptime(s, "%m/%d/%Y")
+            ds = ts.strftime("%m-%d-%Y")
+            [month,day,year] = ds.split("-")
+            print(f"{year}-{month}-{day}", end="")
             return True
         except ValueError:
             return False
 
 while True:
-        date = input('Date: ')
+        date = input('Date: ').strip()
         if is_valid_input(date):
-            print('Happy')
+            break
             
-months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-]

@@ -1,7 +1,8 @@
 from sys import argv,exit
+from os import getenv
 import requests
 
-api_key="placholder_key_can't_commit_to_git"
+api_key=getenv('API_KEY')
 try:
     [_,n] = argv
     value = float(n)
